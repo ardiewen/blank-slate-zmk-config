@@ -11,11 +11,11 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: zmk-helpers
-      remote: urob
-      revision: main
     - name: blank-slate-zmk-module
       remote: petejohanson
+      revision: main
+    - name: zmk-helpers
+      remote: urob
       revision: main
   self:
     path: config
